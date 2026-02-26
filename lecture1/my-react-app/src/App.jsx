@@ -4,7 +4,7 @@ import Profile from './pages/profile';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/ai-vibe-coding/portfolio'>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/profile' element={<Profile />} />
