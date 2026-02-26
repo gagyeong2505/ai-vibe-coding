@@ -105,7 +105,7 @@ function Profile() {
                   fontSize: { xs: '1.4rem', md: '1.55rem' },
                 }}
               >
-                이름을 입력하세요
+                김가경
               </Typography>
               <Typography
                 sx={{
@@ -114,12 +114,12 @@ function Profile() {
                   lineHeight: 1.6,
                 }}
               >
-                한 줄 소개를 입력하세요
+                노력으로 성장하는 웹 퍼블리셔
               </Typography>
               <Divider sx={{ borderColor: '#C4A96B', my: 0.5 }} />
               <Stack spacing={0.8}>
                 <Typography sx={{ color: '#6B6B6B', fontSize: '0.88rem' }}>
-                  📧 email@example.com
+                  📧 gagyeong2505@naver.com
                 </Typography>
                 <Typography sx={{ color: '#6B6B6B', fontSize: '0.88rem' }}>
                   🔗 github.com/username
