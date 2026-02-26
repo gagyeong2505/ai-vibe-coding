@@ -61,7 +61,7 @@ function Profile() {
               { !imgError && (
                 <Box
                   component='img'
-                  src='/profile.jpg'
+                  src={`${import.meta.env.BASE_URL}profile.jpg`}
                   alt='프로필 사진'
                   onError={() => setImgError(true)}
                   sx={{
