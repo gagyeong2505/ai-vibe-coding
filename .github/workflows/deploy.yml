@@ -27,13 +27,13 @@ jobs:
 
       - name: Install & Build my-react-app (portfolio)
         run: |
-          npm ci
+          npm install
           npm run build
         working-directory: lecture1/my-react-app
 
       - name: Install & Build community
         run: |
-          npm ci
+          npm install
           npm run build
         working-directory: lecture1/community
 
