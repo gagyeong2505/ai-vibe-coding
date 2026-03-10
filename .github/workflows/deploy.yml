@@ -41,6 +41,7 @@ jobs:
         run: |
           mkdir -p _deploy
           cp index.html _deploy/index.html
+          cp 404.html _deploy/404.html
           cp -r lecture1/my-react-app/dist _deploy/portfolio
           cp -r lecture1/community/dist _deploy/community
 

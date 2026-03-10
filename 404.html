@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>AmpUp</title>
+  <script>
+    (function () {
+      var path = window.location.pathname;
+      var origin = window.location.origin;
+
+      // community SPA 경로 처리
+      if (path.indexOf('/ai-vibe-coding/community') === 0) {
+        sessionStorage.setItem('spa-redirect', window.location.href);
+        window.location.replace(origin + '/ai-vibe-coding/community/');
+        return;
+      }
+
+      // portfolio SPA 경로 처리 (필요 시 확장)
+      // if (path.indexOf('/ai-vibe-coding/portfolio') === 0) { ... }
+    })();
+  </script>
+</head>
+<body></body>
+</html>
